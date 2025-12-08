@@ -23,7 +23,7 @@ class _ImplicitanimationState extends State<Implicitanimation> {
             duration: Duration(milliseconds: 500),
             height: 150,
             width: 150,
-            color: isblue ? Colors.blue : Colors.red,
+            color: isblue ? Color.fromARGB(255, 136, 255, 0) : Colors.red,
           ),
         ),
       ),
